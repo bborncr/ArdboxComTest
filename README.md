@@ -12,4 +12,8 @@ RETURNS 13:1 as an acknowledgement
 DS13:0 //get status of pin 13
 ```
 RETURNS 13:1 (if the value of 13 is HIGH)
-
+### Analog Status (AS)
+```
+AS18:0 //get status of analog pin (0 - 1023)
+```
+RETURNS 18:581 (assuming the value is 581)
